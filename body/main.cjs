@@ -1,5 +1,4 @@
 const For = require("./global-functions/FNLs/FOR.cjs")
-require("./global-functions/Prototypes/Arrays.cjs")
 
 /* 
 
