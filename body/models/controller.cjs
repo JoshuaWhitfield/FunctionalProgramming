@@ -33,7 +33,14 @@ class Controller {
             actionFunc,
             Node 
         )
-    } //returns updated History on completion
+    } 
+    /* 
+
+        Iterative Loop returns updated History
+        on completion. It is a higher level
+        abstraction of the Functional Iterator.
+    
+    */
 
 }
 
