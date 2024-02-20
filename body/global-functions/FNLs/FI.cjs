@@ -55,9 +55,6 @@ class FunctionalIterator {
 
     IterationLoop(actionFunc, Node) {
         const checkForValidIteration = this.Iterate()
-        console.log("history: ")
-        console.log(typeof(this.history.getValue()))
-                
         return ConditionalFunction(
             checkForValidIteration,
             () => {
@@ -84,8 +81,6 @@ class FunctionalIterator {
             
             /* do next iteration because possible */
             () => {
-                console.log("history: ")
-                console.log(this.history.getValue())
                 this.history.getValue().add(
                     actionFunc()
                 )
