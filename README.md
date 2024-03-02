@@ -46,7 +46,7 @@ The following describes the structure of my experiment, and the functional compo
   and returns a new array containing the results of each iteration cycle. <br />
   Each iteration cycle is a recursive function call. <br />
   
-  **Imperative Function**: (**IMF**.cjs) //-> **Descriptive Functional**: (**DFl**.cjs)
+  **Imperative Function**: (**IMF**.cjs) //-> **Descriptive Functional**: (**DFL**.cjs)
 
   This function takes in an anonymous function as a <br />
   parameter that is defined at each invocation. It also <br />
