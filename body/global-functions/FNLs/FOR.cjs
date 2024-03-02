@@ -18,16 +18,17 @@ const For = (
     iterable,
     actionFunc,
     setNode = {
-        "idx": createEdge(-1),
-        "elem": createEdge(),
-        "jump": createEdge(1),
-        "self": createEdge(iterable),
+        "idx": -1,
+        "jump": 1,
     }
 ) => {
     const node = createNode("for_loop")
-    node.setBody(
-        setNode
-    )
+    node.setBody({
+        "idx": createEdge(setNode.idx),
+        "elem": createEdge(),
+        "jump": createEdge(setNode.jump),
+        "self": createEdge(iterable),
+    })
     return ConditionalForLoop(
         actionFunc,
         node
