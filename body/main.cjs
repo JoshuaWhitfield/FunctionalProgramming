@@ -10,7 +10,7 @@ const For = require("./global-functions/FNLs/FOR.cjs")
     about the iteration cycles of
     the recursive For Loop Function below.
 
-    The information that is accessed
+    The values that are deconstructed
     are called Edges. These are classes
     that hold one value allow you to access
     and change the state of its value.
