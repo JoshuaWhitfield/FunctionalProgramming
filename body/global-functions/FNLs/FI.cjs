@@ -107,7 +107,7 @@ class FunctionalIterator {
 
     FNLi: 'FNL Iterator'
 
-    ## FNLi: a function that iterates
+    ## FNLi: a functional that iterates
     recursively. It iterates through
     iterable objects, or indefinitely. ##
     
