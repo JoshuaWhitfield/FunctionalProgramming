@@ -23,9 +23,10 @@ The following describes the structure of my experiment, and the functional compo
   <h1>
     Key
   </h1>
-  '**//->**' : will be renamed. Points to more accurate naming conventions.
-  '(...filename)' : describes the filename. This allows readers to find the code being described.
-  '(...dirname)' : describes the directory. This allows readers to find the directory being described.
+  
+  '**//->**' : will be renamed. Points to more accurate naming conventions. <br />
+  '(...filename)' : describes the filename. This allows readers to find the code being described. <br />
+  '(...dirname)' : describes the directory. This allows readers to find the directory being described. <br />
   
   <h1>
     Global Functions
@@ -33,38 +34,36 @@ The following describes the structure of my experiment, and the functional compo
 
   **Conditional Function**: (**CF**.cjs)
   
-  This function will call and return 
-  the value of one of two functions based
-  on an inputed boolean type parameter.
-  
+  This function will call and return <br />
+  the value of one of two functions based <br />
+  on an inputed boolean type parameter. <br />
   
   **Conditional For Loop**: (**CFL**.cjs) //-> **Functional For Loop**: (**FlFL**.cjs)
 
-  This function takes in an anonymous function and the Node state as parameters.
-  It then iterates through the iterable data structure stored in the Node State,
-  records the results of the anonymous function on each iteration cycle,
-  and returns a new array containing the results of each iteration cycle.
-  Each iteration cycle is a recursive function call.
-  
+  This function takes in an anonymous function and the Node state as parameters. <br />
+  It then iterates through the iterable data structure stored in the Node State, <br />
+  records the results of the anonymous function on each iteration cycle, <br />
+  and returns a new array containing the results of each iteration cycle. <br />
+  Each iteration cycle is a recursive function call. <br />
   
   **Imperative Function**: (**IMF**.cjs) //-> **Descriptive Functional**: (**DFl**.cjs)
 
-  This function takes in an anonymous function as a 
-  parameter that is defined at each invocation. It also
-  takes in a list of parameters. The parameters are 
-  inserted into the anonymous function call and the result
-  is returned.
+  This function takes in an anonymous function as a <br />
+  parameter that is defined at each invocation. It also <br />
+  takes in a list of parameters. The parameters are <br />
+  inserted into the anonymous function call and the result <br />
+  is returned. <br />
   
   **Inquisitive Function**: (**IQF**.cjs)
 
-  This function takes in a conditional function,
-  and two resulting functions to run based on the boolean type
-  of the original conditional function's return value. This function 
-  has declarative implications as it has the potential to run 4 different procedures
-  based on inputed boolean type. It is told what to run based on
-  truthy and falsy values, and decides what to run by itself 
-  based on these values. It asks what is true, and makes 
-  decisions based on its findings.
+  This function takes in a conditional function, <br />
+  and two resulting functions to run based on the boolean type <br />
+  of the original conditional function's return value. This function <br />
+  has declarative implications as it has the potential to run 4 different procedures <br />
+  based on inputed boolean type. It is told what to run based on <br />
+  truthy and falsy values, and decides what to run by itself <br />
+  based on these values. It asks what is true, and makes <br />
+  decisions based on its findings. <br />
   
   **utils** 
   
@@ -80,12 +79,12 @@ The following describes the structure of my experiment, and the functional compo
 
   **For**: (**FOR**.cjs)
 
-  This function takes an iterable structure and an anonymous function to be run during each iteration cycle. 
-  It also defines the Node and Edges of the Node State before beginning the recursive loop.
-  This particular Node State allows us to interact with components of each iteration cycle including:
-  the iterand, tndex, iteration interval, and history of return values. The Edges describe parts of
-  the Node State that are mutable during each iteration cycle. These Edges are accessable from inside
-  of the passed anonymous function parameter that is defined during invocation.
+  This function takes an iterable structure and an anonymous function to be run during each iteration cycle. <br />
+  It also defines the Node and Edges of the Node State before beginning the recursive loop. <br />
+  This particular Node State allows us to interact with components of each iteration cycle including: <br />
+  the iterand, tndex, iteration interval, and history of return values. The Edges describe parts of <br />
+  the Node State that are mutable during each iteration cycle. These Edges are accessable from inside <br />
+  of the passed anonymous function parameter that is defined during invocation. <br />
 
   <h1>
     Models
@@ -93,32 +92,32 @@ The following describes the structure of my experiment, and the functional compo
 
   **Edge**: (**edge**.cjs)
 
-  This class describes edges and exports a function that creates Edges.
-  The Edge describes a piece of information about the Node State that is mutable during each iteration cycle.
+  This class describes edges and exports a function that creates Edges. <br />
+  The Edge describes a piece of information about the Node State that is mutable during each iteration cycle. <br />
 
   **Node**: (**node**.cjs)
   
-  This class contains and records the State, which is a combination
-  of Edges. Just as any State is a collection of information, 
-  any Node State is a collection of Edges.
+  This class contains and records the State, which is a combination <br />
+  of Edges. Just as any State is a collection of information, <br />
+  any Node State is a collection of Edges. <br />
   
-  In theory, a 'State Space' is a collection of Node States. 
-  These levels of abstraction can keep going upwards if there
-  is information to be recorded and changed, and there are efficient 
-  use cases for these abstractions.
+  In theory, a 'State Space' is a collection of Node States. <br />
+  These levels of abstraction can keep going upwards if there <br />
+  is information to be recorded and changed, and there are efficient <br />
+  use cases for these abstractions. <br />
 
   **Controller**: (**controller**.cjs)
 
-  This class gets its abstracted functionality from the **Functional Iterator** (**FI**.cjs). 
-  It adds a clean layer of abstraction for developers to access if needed.
-  This class is accessed and used by the **Conditional For Loop** (**CFL**.cjs).
+  This class gets its abstracted functionality from the **Functional Iterator** (**FI**.cjs). <br />
+  It adds a clean layer of abstraction for developers to access if needed. <br />
+  This class is accessed and used by the **Conditional For Loop** (**CFL**.cjs). <br />
 
   ---------------------------------------------
 
   **Main**: (**main**.cjs)
 
-  This file is where the highest abstracted functions are used.
-  Only one function is needed to experiment with the Functional For Loop.
+  This file is where the highest abstracted functions are used. <br />
+  Only one function is needed to experiment with the Functional For Loop. <br />
 
   ---------------------------------------------
 
@@ -126,26 +125,26 @@ The following describes the structure of my experiment, and the functional compo
     Afterword
   </h1>
 
-  Feel free to clone this repository and interact with the different functions in the **Global-Functions** directory.
-  If you feel up to the task, try completing these challenging excercises:
+  Feel free to clone this repository and interact with the different functions in the **Global-Functions** directory. <br />
+  If you feel up to the task, try completing these challenging excercises: <br />
 
   **Easy:**
   - Iterate through strings using the **For** function. (**FOR**.cjs)
 
   **Medium:**
 
-  - Make it possible to **break** out of the recursive loop
-    from inside of the user's defined anonymous function
-    by utilizing the Node State.
+  - Make it possible to **break** out of the recursive loop <br />
+    from inside of the user's defined anonymous function <br />
+    by utilizing the Node State. <br />
 
-  - Make it possible to reverse iterate. For extra credit,
-    make the reverse iteration abide by Interval edge that
-    describes the interval size of each iteration cycle.
+  - Make it possible to reverse iterate. For extra credit, <br />
+    make the reverse iteration abide by Interval edge that <br />
+    describes the interval size of each iteration cycle. <br />
 
   **Hard:** 
 
-  - Make it possible to **continue** by utilizing the Node State,
-    effectively skipping the iteration cycle where it is used.
+  - Make it possible to **continue** by utilizing the Node State, <br />
+    effectively skipping the iteration cycle where it is used. <br />
   
   
 
