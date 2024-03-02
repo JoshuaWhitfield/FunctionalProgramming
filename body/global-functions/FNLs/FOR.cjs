@@ -16,16 +16,17 @@ const createEdge = require("../../models/edge.cjs")
 
 const For = (
     iterable,
-    actionFunc
+    actionFunc,
+    setNode = {
+        "idx": createEdge(-1),
+        "elem": createEdge(),
+        "jump": createEdge(1),
+        "self": createEdge(iterable),
+    }
 ) => {
     const node = createNode("for_loop")
     node.setBody(
-        {
-            "idx": createEdge(-1),
-            "elem": createEdge(),
-            "jump": createEdge(1),
-            "self": createEdge(iterable),
-        }
+        setNode
     )
     return ConditionalForLoop(
         actionFunc,
