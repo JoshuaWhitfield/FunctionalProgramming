@@ -38,7 +38,7 @@ The following describes the structure of my experiment, and the functional compo
   the value of one of two functions based <br />
   on an inputed boolean type parameter. <br />
   
-  **Conditional For Loop**: (**CFL**.cjs) //-> **Functional For Loop**: (**FlFL**.cjs)
+  **Conditional For Loop**: (**CFL**.cjs) //-> **Functional For Loop**: (**FLFL**.cjs)
 
   This function takes in an anonymous function and the Node state as parameters. <br />
   It then iterates through the iterable data structure stored in the Node State, <br />
@@ -126,7 +126,7 @@ The following describes the structure of my experiment, and the functional compo
   </h1>
 
   Feel free to clone this repository and interact with the different functions in the **Global-Functions** directory. <br />
-  If you feel up to the task, try completing these challenging excercises: <br />
+  If you feel up to the task, try completing these challenging exercises: <br />
 
   **Easy:**
   - Iterate through strings using the **For** function. (**FOR**.cjs)
