@@ -4,8 +4,6 @@ The following describes the structure of my experiment, and the functional compo
 <pre>
   Structural Summary: 
   The structure of this experiment is listed linearly in a bottom-up direction of dependency:
-  
-  <p align="center">
     
            ** main.cjs **
              ---------
@@ -19,7 +17,6 @@ The following describes the structure of my experiment, and the functional compo
           ---------------
                  |
          global-functions : CF.cjs, CFL.cjs, IMF.cjs, IQF.cjs, utils.cjs
-  </p>
 
 </pre>
 
