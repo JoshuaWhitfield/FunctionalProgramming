@@ -16,7 +16,7 @@ const ConditionalForLoop = (
         elem, // internally accessable
         jump, // internally accessable
         createEdge(false), // returnValue
-        self, // iterated list - internally accessable
+        self, // iterable - internally accessable
         createEdge([]) // history
     )
 
