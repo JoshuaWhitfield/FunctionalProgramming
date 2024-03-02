@@ -27,17 +27,17 @@ at higher levels of abstraction.
 
 const ConditionalFunction = (
     onCondition,
-    positiveAction, // define a function and it's return value
-    negativeAction // define a function and it's return value
+    positiveAction = true, // define a function and it's return value
+    negativeAction = false // define a function and it's return value
 ) => {
     if (onCondition) {
         if (callable(positiveAction)) 
-        { return positiveAction() }
-        return positiveAction // pass on the function's return value
+        { return positiveAction() } // return the function's value
+        return positiveAction // return the literal value
     } else {
         if (callable(negativeAction)) 
         { return negativeAction() }
-        return negativeAction  // pass on the function's return value
+        return negativeAction
     }
 }
 
