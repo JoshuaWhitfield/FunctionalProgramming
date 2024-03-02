@@ -121,8 +121,8 @@ class FunctionalIterator {
   of the customizable function it acceps,
   and returns that result when finished. 
 
-  This is a powerful tool the functionalizes 
-  the for loop. It creates room for innovation
+  This is a powerful tool that makes the for loop
+  functional. It creates room for innovation
   at higher levels of abstraction.
   
 */
