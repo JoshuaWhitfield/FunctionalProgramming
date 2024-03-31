@@ -64,6 +64,17 @@ The following describes the structure of my experiment, and the functional compo
   truthy and falsy values, and decides what to run by itself <br />
   based on these values. It asks what is true, and makes <br />
   decisions based on its findings. <br />
+
+  Because functions are inherently infinite due to their recursive properties, <br />
+  the Inquisitive Function can theoretically handle an infinite amount of call-back functions and function calls, <br />
+  and produce an infinite variety of outputs based on the boolean type return values of those internal call-back functions. <br />
+  This creates a strong argument for the existence of True Declarative Programming. <br />
+  You can store the return value of this theoretical complex Inquisitive Function calls inside of another function <br />
+  With a specific declarative naming convention that describes the task that occurs and the information it produces. <br />
+  As you continue abstracting these procedures in this way, you would eventually have to store these return <br />
+  values in functions with variable names that are sentences in length to encompass the topic or data being operated on (noun),  <br />
+  descriptions of the data being operated on (adjectives), and words to describe actions taken on the nouns <br />
+  during internal procedures (verbs, adverbs) <br />
   
   **utils** 
   
