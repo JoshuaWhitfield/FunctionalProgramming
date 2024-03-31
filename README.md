@@ -89,10 +89,14 @@ The following describes the structure of my experiment, and the functional compo
   }
   ```
 
-  Nouns: [ 'TheResultOfTheCurrentState', 'ThePreviousStates' ]
-  Adjectives: [ 'Optimal', 'AllInstances' ]
-  Verbs: [ 'Is', 'Return', 'Fail' ]
-  Adverbs: [ 'Otherwise' ]
+  ```js
+  const breakdownOfNamingConvention = {
+    Nouns: [ 'TheResultOfTheCurrentState', 'ThePreviousStates' ],
+    Adjectives: [ 'Optimal', 'AllInstances' ],
+    Verbs: [ 'Is', 'Return', 'Fail' ],
+    Adverbs: [ 'Otherwise' ],
+  }
+  ```
 
   At this level of abstraction, the naming convention is unnecessary. <br />
   However, if we admit that 'state.currentStateIsOptimal()' and 'state.getHistory()' <br />
