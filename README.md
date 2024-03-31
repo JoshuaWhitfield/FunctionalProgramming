@@ -72,9 +72,9 @@ The following describes the structure of my experiment, and the functional compo
   You can store the return value of these theoretical complex Inquisitive Function calls inside of another function <br />
   With a specific declarative naming convention that describes the task that occurs and the information it produces. <br />
   As you continue abstracting these procedures in this way, you would eventually have to store these return <br />
-  values in functions with variable names that are sentences in length to encompass the topic, data being operated on, and the output (nouns),  <br />
-  descriptions of the data being operated on (adjectives), and words to describe actions taken on the nouns <br />
-  during internal procedures (verbs, adverbs) <br />
+  values in functions with variable names that are sentences in length to encompass the topic,
+  data being operated on, and the output (nouns), descriptions of the data being operated on (adjectives), <br />
+  and words to describe actions taken on the nouns during internal procedures (verbs, adverbs) <br />
 
   Example: 
 
