@@ -91,8 +91,8 @@ The following describes the structure of my experiment, and the functional compo
 
   ```js
   const breakdownOfNamingConvention = {
-    Nouns: [ 'TheResultOfTheCurrentState', 'ThePreviousStates' ],
-    Adjectives: [ 'Optimal', 'AllInstances' ],
+    Nouns: [ 'TheCurrentState', 'ThePreviousStates' ],
+    Adjectives: [ TheResultOf , 'Optimal', 'AllInstancesOf' ],
     Verbs: [ 'Is', 'Return', 'Fail' ],
     Adverbs: [ 'Otherwise' ],
   }
