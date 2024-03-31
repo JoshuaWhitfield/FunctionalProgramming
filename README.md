@@ -84,7 +84,7 @@ The following describes the structure of my experiment, and the functional compo
     return IQF(
       state.currentStateIsOptimal(),
       () => state.getHistory(),
-      () => return false /* false boolean is the standard record of failure */
+      () => false /* false boolean is the standard record of failure */
     )
   }
   ```
