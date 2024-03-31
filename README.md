@@ -72,9 +72,33 @@ The following describes the structure of my experiment, and the functional compo
   You can store the return value of these theoretical complex Inquisitive Function calls inside of another function <br />
   With a specific declarative naming convention that describes the task that occurs and the information it produces. <br />
   As you continue abstracting these procedures in this way, you would eventually have to store these return <br />
-  values in functions with variable names that are sentences in length to encompass the topic or data being operated on (noun),  <br />
+  values in functions with variable names that are sentences in length to encompass the topic, data being operated on, and the output (nouns),  <br />
   descriptions of the data being operated on (adjectives), and words to describe actions taken on the nouns <br />
   during internal procedures (verbs, adverbs) <br />
+
+  Example: 
+
+  ```js
+  const state = new State() /* ...some theoretical state in class form. */
+  function IfTheResultOfTheCurrentStateIsOptimal_ReturnAllInstancesOfThePreviousStates_OtherwiseFail(state) {
+    return IQF(
+      state.currentStateIsOptimal(),
+      () => state.getHistory(),
+      () => return false /* false boolean is the standard record of failure */
+    )
+  }
+  ```
+
+  Nouns: [ 'TheResultOfTheCurrentState', 'ThePreviousStates' ]
+  Adjectives: [ 'Optimal', 'AllInstances' ]
+  Verbs: [ 'Is', 'Return', 'Fail' ]
+  Adverbs: [ 'Otherwise' ]
+
+  At this level of abstraction, the naming convention is unnecessary. <br />
+  However, if we admit that 'state.currentStateIsOptimal()' and 'state.getHistory()' <br />
+  can be complex functions with callbacks and internal function declarations and calls of their own, <br />
+  the naming convention simplifies the process of abstracting all of those internal tasks into one <br />
+  higher order function with a clear declarative description. <br />
   
   **utils** 
   
