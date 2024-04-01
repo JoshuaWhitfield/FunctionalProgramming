@@ -102,7 +102,7 @@ The following describes the structure of my experiment, and the functional compo
   However, if we admit that 'state.currentStateIsOptimal()' and 'state.getHistory()' <br />
   can be complex functions with callbacks and internal function declarations and calls of their own, <br />
   the naming convention simplifies the process of abstracting all of those internal tasks into one <br />
-  higher order function with a clear declarative description. <br />
+  function with a clear declarative description. <br />
   
   **utils** 
   
