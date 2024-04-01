@@ -121,7 +121,7 @@ The following describes the structure of my experiment, and the functional compo
   This function takes an iterable structure and an anonymous function to be run during each iteration cycle. <br />
   It also defines the Node and Edges of the Node State before beginning the recursive loop. <br />
   This particular Node State allows us to interact with components of each iteration cycle including: <br />
-  the iterand, tndex, iteration interval, and history of return values. The Edges describe parts of <br />
+  the iterand, index, iteration interval, and history of return values. The Edges describe parts of <br />
   the Node State that are mutable during each iteration cycle. These Edges are accessable from inside <br />
   of the passed anonymous function parameter that is defined during invocation. <br />
 
