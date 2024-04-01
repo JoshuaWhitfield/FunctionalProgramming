@@ -67,8 +67,8 @@ The following describes the structure of my experiment, and the functional compo
 
   Because functions are inherently infinite due to their recursive properties, <br />
   the Inquisitive Function can theoretically handle an infinite amount of call-back functions and function calls, <br />
-  and produce an infinite variety of outputs based on the boolean type return values of those internal call-back functions. <br />
-  This creates a strong argument for the existence of True Declarative Programming. <br />
+  and produce an infinite variety of outputs based on the boolean type return values of those internal <br />
+  call-back functions. This creates a strong argument for the existence of True Declarative Programming. <br />
   You can store the return value of these theoretical complex Inquisitive Function calls inside of another function <br />
   With a specific declarative naming convention that describes the task that occurs and the information it produces. <br />
   As you continue abstracting these procedures in this way, you would eventually have to store these return <br />
